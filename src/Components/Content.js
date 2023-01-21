@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Main() {
+export default function Content() {
   return (
-    <div className="main">
+    <div className="content">
         sdf
     </div>
   )

@@ -1,6 +1,61 @@
 @import "../Styles/variable";
 @import "../Styles/mixin";
+@import "../Styles/components";
 
 .footer{
     background-color: $background-tertiary;
+    color: $secondary;
+    padding: 4rem 7rem 2rem;
+
+    .footer-top{
+        @include space-between;
+
+        .btn-group{
+            display:none
+        }
+    }
+
+    .footer-mid{
+        @include space-between;
+    }
+
+    .footer-bottom{
+        @include space-between;
+        color: $tertiary;
+    }
+
+    button{
+        padding: 0;
+    }
+}
+
+
+
+@media screen and (max-width:780px) {
+    .footer{
+        .footer-mid{
+            .opt-list{
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:950px) {
+    .footer{
+        padding: 4rem 4rem 2rem;
+
+        .footer-top{    
+            .btn-group{
+                display:flex;
+            }
+        }
+
+        .footer-mid{
+            .btn-group{
+                display: none;
+            }
+        }
+    }
 }

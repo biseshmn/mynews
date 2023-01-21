@@ -7,7 +7,7 @@ export default function Header() {
             <i class="fa-brands fa-twitter"></i>
         </a>
             
-        <a href="https://www.linkedin.com/" target="-blank">
+        <a href="https://www.linkedin.com/">
             <i class="fa-brands fa-linkedin-in"></i>
         </a>
     </div>

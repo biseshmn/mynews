@@ -1,0 +1,15 @@
+@import "../Styles/variable";
+@import "../Styles/mixin";
+
+.opt-list{
+    @include flex;
+    gap: 4rem;
+}
+
+.block{
+    padding: 3rem 7rem 3rem;
+}
+.block-flex{
+    @include flex;
+    padding: 3rem 7rem 3rem;
+}

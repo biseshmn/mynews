@@ -1,4 +1,9 @@
 @import "./Styles/Header";
-@import "./Styles/Main";
+@import "./Styles/Content";
 @import "./Styles/Footer";
 @import "./Styles/override";
+
+.main{
+    @include flex-column;
+    overflow: auto;
+}

@@ -4,12 +4,17 @@
 
 .header{
     background-color: $background-primary;
-    border: 1px solid;
-    padding: 1.25rem 7rem;
     color: $tertiary;
+    padding: 1.25rem 7rem;
     gap: 2rem;
     i{
         height: $logo-icons;
         width: $logo-icons;
     };
+}
+
+@media screen and (max-width:950px) {
+    .header{
+        padding: 1.25rem 2rem;
+    }
 }

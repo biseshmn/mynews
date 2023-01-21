@@ -2,16 +2,16 @@
 import './App.scss';
 
 import Header from "./Components/Header";
-import Main from "./Components/Main";
+import Content from "./Components/Content";
 import Footer from "./Components/Footer";
 
 function App() {
-  return (
-    <>
+    return (
+    <div className="main">
       <Header/>
-      <Main/>
+      <Content/>
       <Footer/>
-    </>
+    </div>
   );
 }
 
