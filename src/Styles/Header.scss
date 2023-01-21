@@ -1,0 +1,15 @@
+@import "../Styles/variable";
+@import "../Styles/mixin";
+
+
+.header{
+    background-color: $background-primary;
+    border: 1px solid;
+    padding: 1.25rem 7rem;
+    color: $tertiary;
+    gap: 2rem;
+    i{
+        height: $logo-icons;
+        width: $logo-icons;
+    };
+}
